@@ -2,7 +2,6 @@
 Auteurs: Felix Breval et Samuel Roland
 
 ## Introduction
-<!-- Note: vraiment utile ?? Dans ce laboratoire, nous allons appliquer et analyser un ensemble de modélisations data-driven sur un jeu de données de classification. -->
 Le but de ce laboratoire est de pouvoir classifier l'état de sommeil d'une souris à partir de données d'électroencéphalogramme grâce à un MLP, un réseau de neurones de perceptrons multi-couches.
 
 Nous avons à disposition deux jeux de données avec l'état de sommeil sur lesquels s'entrainer et valider les résultats: `EEG_mouse_data_1.csv` et `EEG_mouse_data_2.csv` ainsi qu'un jeu de données sans l'état de sommeil pour la compétition: `EEG_mouse_data_test.csv`. Sur ce dernier nous ne ferons que de lancer des prédictions sur notre meilleur modèle sans pouvoir à quelles points elles sont bonnes.
@@ -46,8 +45,6 @@ On peut remarquer qu'il y a encore de l'overfitting mais le modèle est capable 
 Nous avons obtenu un f1 score moyen de **0.88663** et la matrice de confusion suivante:
 
 ![Matrice de confusion](./figures/p1_matrix.png)
-
-<!-- est-ce quon voudrait pas inverse les 2 parties avec images comme dans le rapport ?  en tous cas j'ai inversé dans les 2 parties suivantes -->
 
 ## Partie 2
 
